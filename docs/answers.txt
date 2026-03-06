@@ -1,0 +1,51 @@
+ANNOTATIONS
+Date(s) when I completed the Git Lab Tutorials: [fill this in]
+Date(s) when I set up my GitHub account: [fill this in]
+GitHub repository URL: https://github.com/jdavromero/assignment2
+
+1) Console output saved at the end of step 3.C:
+[paste your git push output from when you pushed docs/status.txt]
+
+2) How many commits have been done to the repository so far?
+Command used:
+git rev-list --count HEAD
+
+Answer:
+9
+
+3) When was the README.md file modified last?
+Command used:
+git log -1 -- README.md
+
+Answer:
+Date:   Fri Mar 6 09:30:14 2026 -0500
+
+4) Mention two reasons why branches are used in a Git repository:
+- Branches let developers work on features or fixes without affecting the main code.
+- Branches allow multiple people to work in parallel and merge changes later.
+
+5) What is the difference between git log and git status?
+git log shows the commit history of the repository.
+git status shows the current state of the working directory and staging area.
+
+6) What command would you use to see the commits where “Vehicle.h” was one of the committed files?
+git log -- Vehicle.h
+
+7) What command would you use to see the commits whose commit message contains the word “file”?
+git log --grep="file"
+
+8) In the context of object-oriented programming:
+(I) Inheritance:
+Inheritance is when one class acquires the attributes and behaviors of another class.
+
+(II) Polymorphism:
+Polymorphism is the ability for the same interface or function call to behave differently depending on the object.
+
+(III) Encapsulation:
+Encapsulation is the practice of keeping data and methods together in a class and restricting direct access to internal data.
+
+9) What is the main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow?
+In the Dictator and Lieutenants workflow, trusted lieutenants manage parts of the project and pass approved changes to a central leader who makes the final integration decisions. In the Integration manager workflow, contributors submit changes to a maintainer or integration manager, who reviews and merges them.
+
+10) How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow?
+A large team benefits because work is divided among lieutenants who manage different parts of the project, making coordination easier and reducing overload on one central repository or one person. This scales much better than a centralized workflow for very large teams.
